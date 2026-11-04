@@ -1,5 +1,12 @@
 # Client Change Request
 
+## Ver.1 후속 요청 · 2026-11-04 · 저장소 경로 통일
+
+- 사용자 지시: ECLADO_front의 main만 커밋·푸시 대상으로 사용.
+- 적용: 소스·테스트·문서 복사, 대상 저장소의 main 푸시 설정, 이전 저장소 로컬 커밋·푸시 차단 훅.
+- 원본 파일·Git 이력은 보존. 민감한 .env·실행 DB·세션 데이터는 복사하지 않음.
+- 상세: [저장소 기준](repository-destination.md).
+
 ## Ver.1 후속 요청 · 2026-11-04 · README UI 반영
 
 - 요청: 전달한 README.md/README_back.md를 이전 UI에도 반영.

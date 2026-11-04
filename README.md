@@ -185,6 +185,10 @@ uv sync
 
 ## 9. Run locally
 
+작업·실행·커밋·푸시 기준 폴더는 `C:\ECLADO_MARKETING_TOOL\ECLADO_front`입니다.
+Git 원격은 `swihm1989-ship-it/ECLADO_front`, 대상 브랜치는 `main`으로 통일합니다.
+기존 `C:\workspace\eclado_marketing_tool\eclado-ai-analysis-marketing-tool` 폴더는 보존용입니다.
+
 Start the API in one terminal:
 
 ```powershell

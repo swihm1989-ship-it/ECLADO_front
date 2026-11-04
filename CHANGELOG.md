@@ -4,6 +4,12 @@ All client-requested releases are recorded here. Use `Ver.1`, `Ver.2`, etc. as t
 
 ## Unreleased
 
+### Ver.1 · 2026-11-04 · ECLADO_front/main으로 작업 경로 통일
+
+- 이전 작업 폴더의 소스·테스트·문서를 ECLADO_front로 복사하고 독립 가상환경 구성.
+- 커밋·푸시 대상은 ECLADO_front.git의 main만 사용. 이전 저장소에는 로컬 차단 훅 적용.
+- .git 이력·.env·로컬 DB는 복사하지 않고 원본 보존. 실제 커밋·푸시는 수행하지 않음.
+
 ### Ver.1 · 2026-11-04 · README UI 반영
 
 - 기존 매출 UI를 유지하고 재주문·이탈 경보·교차판매·리뷰/캠페인·성과·외부 신호/연동 상태 메뉴 추가.
