@@ -4,6 +4,12 @@ All client-requested releases are recorded here. Use `Ver.1`, `Ver.2`, etc. as t
 
 ## Unreleased
 
+### Ver.1 · 2026-11-04 · 로그인 입력창 자산 로딩 복구
+
+- 로그인 화면 유지. 입력창 등 동적 JS/CSS 로딩 실패 시 탭·버전별 한 번만 새로고침하는 복구 처리 추가.
+- 기존 데모 토큰을 보존하고 재시도 실패·브라우저 저장소 차단 시 무한 새로고침 방지.
+- Streamlit을 기존 검증 버전 1.66.0으로 고정. Cloud 재배포·브라우저 입력 확인은 별도 필요.
+
 ### Ver.1 · 2026-11-04 · ECLADO_front/main으로 작업 경로 통일
 
 - 이전 작업 폴더의 소스·테스트·문서를 ECLADO_front로 복사하고 독립 가상환경 구성.

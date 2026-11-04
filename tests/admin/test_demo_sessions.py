@@ -95,3 +95,14 @@ def test_browser_storage_refresh_expiry_and_clear() -> None:
         [node, "tests/admin/demo_session_harness.mjs"], capture_output=True, text=True, check=False
     )
     assert result.returncode == 0, result.stderr
+
+
+def test_widget_asset_recovery_is_bounded_and_preserves_login() -> None:
+    node = shutil.which("node")
+    if node is None:
+        pytest.skip("Node is needed for the frontend recovery harness")
+    result = subprocess.run(
+        [node, "tests/admin/asset_recovery_harness.mjs"],
+        capture_output=True, text=True, check=False,
+    )
+    assert result.returncode == 0, result.stderr

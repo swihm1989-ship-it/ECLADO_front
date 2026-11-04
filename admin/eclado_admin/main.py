@@ -1,5 +1,6 @@
 import streamlit as st
 
+from eclado_admin.asset_recovery import enable_asset_recovery
 from eclado_admin.demo_auth import DEMO_EMAIL, logout_demo, require_demo_login
 from eclado_admin.marketing_pages import (
     MARKETING_PAGES,
@@ -11,6 +12,7 @@ from eclado_admin.ui_theme import apply_theme, brand
 
 st.set_page_config(page_title="ECLADO | 사장님 대시보드", page_icon="🌿", layout="wide")
 apply_theme()
+enable_asset_recovery()
 require_demo_login()
 
 with st.sidebar:
